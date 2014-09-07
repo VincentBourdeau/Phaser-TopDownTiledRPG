@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16">
+  <image source="../tiles.png" width="705" height="1280"/>
+ </tileset>
+ <layer name="backgroundLayer" width="10" height="20">
+  <data encoding="csv">
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277,
+1277,1277,1277,1277,1277,1277,1277,1277,1277,1277
+</data>
+ </layer>
+ <layer name="blockedLayer" width="10" height="20">
+  <data encoding="csv">
+3267,3267,3267,3267,0,0,3267,3267,3267,3267,
+2730,0,0,668,0,0,668,0,0,2730,
+3356,0,0,0,0,0,0,0,0,3356,
+3356,0,712,712,712,712,712,712,712,3356,
+3356,0,0,0,0,0,0,0,0,2730,
+3356,712,712,712,712,624,0,0,0,3356,
+2730,0,0,0,0,712,0,0,0,3356,
+3356,0,0,0,0,712,0,624,712,3356,
+3356,0,0,0,0,0,0,712,0,3356,
+3356,0,0,712,712,712,712,624,0,3356,
+3356,0,0,0,0,0,0,0,0,3356,
+3356,712,712,712,0,0,0,712,712,2730,
+3356,0,0,0,0,0,0,0,0,3356,
+2730,712,712,712,712,712,624,0,0,3356,
+3356,0,0,0,0,0,712,0,0,3356,
+3356,0,0,0,0,0,712,0,0,3356,
+3356,0,712,712,712,712,624,712,0,2730,
+3356,0,0,0,0,0,0,0,0,3356,
+2730,0,0,0,0,0,0,0,0,3356,
+3356,3356,3356,2730,3356,2730,3356,3356,3356,3356
+</data>
+ </layer>
+ <objectgroup name="objectsLayer" width="10" height="20">
+  <object gid="487" x="62" y="16">
+   <properties>
+    <property name="TargetY" value="30"/>
+    <property name="sprite" value="door_red_leftpart"/>
+    <property name="targetTilemap" value="level2"/>
+    <property name="targetX" value="20"/>
+    <property name="type" value="door"/>
+   </properties>
+  </object>
+  <object gid="488" x="77" y="16">
+   <properties>
+    <property name="sprite" value="door_red_rightpart"/>
+    <property name="type" value="door"/>
+   </properties>
+  </object>
+  <object gid="77" x="79" y="254">
+   <properties>
+    <property name="type" value="playerStart"/>
+   </properties>
+  </object>
+  <object gid="1616" x="127" y="47">
+   <properties>
+    <property name="sprite" value="potion_big_red"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object gid="1617" x="15" y="110">
+   <properties>
+    <property name="sprite" value="potion_big_yellow"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object gid="1616" x="128" y="33">
+   <properties>
+    <property name="sprite" value="potion_big_red"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object gid="1616" x="128" y="142">
+   <properties>
+    <property name="sprite" value="potion_big_red"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object gid="1616" x="15" y="240">
+   <properties>
+    <property name="sprite" value="potion_big_red"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object gid="1616" x="16" y="207">
+   <properties>
+    <property name="sprite" value="potion_big_red"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object gid="1617" x="32" y="110">
+   <properties>
+    <property name="sprite" value="potion_big_yellow"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object gid="1617" x="49" y="109">
+   <properties>
+    <property name="sprite" value="potion_big_yellow"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
